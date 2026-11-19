@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "overview": "/",
+    "legal": {
+      "public_offer": "/legal/public-offer/",
+      "refund_policy": "/legal/refund-policy/",
+      "privacy_policy": "/legal/privacy-policy/",
+      "personal_data_consent": "/legal/personal-data-consent/",
+      "data_processing": "/legal/data-processing/"
+    }
+  },
+  "localized_sections": {
+    "ru": {
+      "overview": "/ru/",
+      "legal": {
+        "public_offer": "/ru/legal/public-offer/",
+        "refund_policy": "/ru/legal/refund-policy/",
+        "privacy_policy": "/ru/legal/privacy-policy/",
+        "personal_data_consent": "/ru/legal/personal-data-consent/",
+        "data_processing": "/ru/legal/data-processing/"
+      }
+    },
+    "en": {
+      "overview": "/en/",
+      "legal": {
+        "public_offer": "/en/legal/public-offer/",
+        "refund_policy": "/en/legal/refund-policy/",
+        "privacy_policy": "/en/legal/privacy-policy/",
+        "personal_data_consent": "/en/legal/personal-data-consent/",
+        "data_processing": "/en/legal/data-processing/"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+name: Trigger docs site deploy
+on:
+  push:
+    branches: [production]
+  workflow_dispatch:
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify verificahub-docs-site-uz
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/verificahub/verificahub-docs-site-uz/dispatches \
+            -f event_type=docs-production-updated \
+            -F "client_payload[sha]=${{ github.sha }}"
